@@ -1,5 +1,5 @@
 Pod::Spec.new do |s|
-  s.name        = 'PromisesObjC'
+  s.name        = 'FBLPromises'
   s.version     = '2.2.0'
   s.authors     = 'Google Inc.'
   s.license     = { :type => 'Apache-2.0', :file => 'LICENSE' }
