@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name        = 'FBLPromises'
-  s.version     = '2.2.0'
+  s.version     = '2.2.1'
   s.authors     = 'Google Inc.'
   s.license     = { :type => 'Apache-2.0', :file => 'LICENSE' }
   s.homepage    = 'https://github.com/google/promises'
@@ -17,7 +17,6 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.0'
   s.watchos.deployment_target = '2.0'
 
-  s.module_name = 'FBLPromises'
   s.prefix_header_file = false
   s.header_dir = "./"
   s.public_header_files = "Sources/#{s.module_name}/include/**/*.h"
